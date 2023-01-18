@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },// rapor olusturmak icin
         features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
-        tags= "@smoke",
+        tags= "@wip",
         dryRun = false
 )
 
