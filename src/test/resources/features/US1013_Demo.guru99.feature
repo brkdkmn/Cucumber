@@ -1,5 +1,5 @@
 Feature:US1013 kullanici web tablosundan istedigi degerin varligini test eder
-@wip
+
   Scenario: TC18 kulanici tablodan deger test eebilmeli
 
     Given kullanici "guru99Url" anasayfaya gider

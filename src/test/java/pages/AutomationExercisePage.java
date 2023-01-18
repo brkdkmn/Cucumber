@@ -1,5 +1,6 @@
 package pages;
 
+import io.cucumber.java.cy_gb.A;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -25,6 +26,15 @@ public class AutomationExercisePage {
     @FindBy(xpath = "/button[text()='Signup']")
     public WebElement signUpButon;
 
+    @FindBy(xpath = "//*[@value='Mr']")
+    public WebElement mrRadioButon;
+
+    @FindBy(xpath = "//*[text()='Create Account']")
+    public WebElement createAccountButon;
+
+    @FindBy(xpath = "//b[text()='Account Created!']")
+
+    public WebElement createAccountElementYazisi;
 
 
 }
