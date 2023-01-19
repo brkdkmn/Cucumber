@@ -1,5 +1,5 @@
 Feature: US1014 Automation exercise sitesinde kullanici olusturma
-  @wip
+
   Scenario: TC19 Kullanici automation exercise sayfasinda kullanici olusturabilmeli
 
 
